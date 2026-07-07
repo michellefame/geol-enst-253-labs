@@ -1,4 +1,4 @@
-# Lab #2 – Projections & COordinate Systems
+# Lab #2 – Projections & Coordinate Systems
 ### GEOL/ENST 253: Geospatial Inquiry & GIS
 ### Prof. Michelle Fame
 ---
