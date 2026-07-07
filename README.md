@@ -1,6 +1,6 @@
 # GEOL/ENST 253: Geospatial Inquiry & GIS — Labs & Projects Manual
 
-[cite_start]Welcome to the online lab and project manual for GEOL/ENST 253. [cite_start]Use the directory below to navigate through our weekly assignments and course projects.
+Welcome to the online lab and project manual for GEOL/ENST 253. Use the directory below to navigate through our weekly assignments and course projects.
 
 ## Laboratory Manuals
 * [Lab 1: Introduction to GIS & Geospatial Data](lab1.md)
