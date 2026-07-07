@@ -1,4 +1,4 @@
-# Lab #04 – STUFF
+# Lab 04 – STUFF
 ### GEOL/ENST 253: Geospatial Inquiry & GIS
 ### Prof. Michelle Fame
 ---
