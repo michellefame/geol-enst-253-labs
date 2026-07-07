@@ -1,15 +1,15 @@
-# GEOL/ENST 253: Geospatial Inquiry & GIS
-## Prof. Michelle Fame
-### Lab #1 – Introduction to GIS & Geospatial Data
+### GEOL/ENST 253: Geospatial Inquiry & GIS
+#### Prof. Michelle Fame
+#### Lab #1 – Introduction to GIS & Geospatial Data
 
----
 
-## Introduction
 
-### Overview
+### Introduction
+
+#### Overview
 In this lab, we will begin to practice with some of the basic components of ArcGIS Pro. We will be working with a variety of geospatial data types to make a simple map of the Town of Amherst and do some very basic geospatial analyses. The data and maps you generate in this lab may be used again in future labs, so be sure to organize, name, and save everything properly. 
 
-### Learning Goals
+#### Learning Goals
 * Using the Virtual Computing Lab (VCL) to access ArcGIS Pro 
 * Using the F: Drive for file management
 * Getting familiar with the ArcGIS Pro interface and basic tools 
@@ -17,9 +17,9 @@ In this lab, we will begin to practice with some of the basic components of ArcG
 * Adding fields, using the field calculator, and symbolizing vector data
 * Introduction to working with rasters and ArcToolbox 
 
----
 
-## Part 1: Set Up Azure
+
+### Part 1: Set Up Azure
 
 File management is an essential part of using GIS and is essential to your success in this class. Taking a little extra time to get your file system organized before you dive into a project will save you many headaches down the line. Today, I want to model that behavior. 
 
@@ -42,9 +42,9 @@ Open a folder and navigate to the class drive. Here is how the drive is structur
 **Your Workspace For Today:**
 Navigate to `StudentFolders` > `AStudent26` (find your own student ID, this is my stand-in for your personal folder from here on out) > `Labs` > `Lab_1` > `TownofAmherst_v01`
 
----
 
-## Part 2: ArcGIS Pro Map Interface
+
+### Part 2: ArcGIS Pro Map Interface
 
 Double-click on the folder `TownofAmherst_v01` and open up the ArcGIS Project File named `TownofAmherst_v01.aprx`.
 
@@ -55,15 +55,15 @@ Double-click on the folder `TownofAmherst_v01` and open up the ArcGIS Project Fi
 
 Once your map is open, take some time familiarizing yourself with the display. Click through the tabs at the top to gain some familiarity with what each contains. When you are done playing, click back on the **Map** tab.
 
-<span style="color:blue">**Question 1:** What do each of these tools in the ribbon menu at the top of the page do? Label them below and then play around with them so that you feel confident with how they work.</span> 
+> **❓ Question 1:** What do each of these tools in the ribbon menu at the top of the page do? Label them below and then play around with them so that you feel confident with how they work.
 
-> **Pro Tip:** A useful shortcut is that if you click `Shift` while having the explore tool selected, you can draw a box on the map to zoom to that extent. 
+> **💡 Pro Tip:** A useful shortcut is that if you click `Shift` while having the explore tool selected, you can draw a box on the map to zoom to that extent. 
 
 **Exploring Map Properties:**
 1. Check and uncheck layers in the **Contents** window and move layers around into different drawing orders. 
 2. Right-click on **Map** in the Contents window and look at the map document's properties. 
 
-<span style="color:blue">**Question 2:** What are the display units for the map? Find where these display on the map as you move your cursor around. What Coordinate System is the map currently in?</span>
+> **❓ Question 2:** What are the display units for the map? Find where these display on the map as you move your cursor around. What Coordinate System is the map currently in?
 
 *(Do not change anything in map document properties and click cancel).*
 
@@ -71,7 +71,7 @@ Once your map is open, take some time familiarizing yourself with the display. C
 1. Right-click on **USA_States** and look at the layer properties. 
 2. Click **Source** and look in the **Database** row to see the pathname where the source data for the layer is saved. 
 
-<span style="color:blue">**Question 3:** Fill in the rest of the full pathname for `USA_States`. It should be in a geodatabase within your folder for this class that begins as shown below. If it is not, please ask for help.</span>  
+> **❓ Question 3:** Fill in the rest of the full pathname for `USA_States`. It should be in a geodatabase within your folder for this class that begins as shown below. If it is not, please ask for help.  
 `F:\MichelleFame\GEOL_ENST_253_F2025\StudentFolders\...`
 
 **Selecting and Exporting Features:**
@@ -87,13 +87,13 @@ Repeat these steps again with `USA_Counties` and export a feature class with onl
 
 Turn off (uncheck) or remove (right-click > remove layer) all other state and counties layers. 
 
-<span style="color:blue">**Question 4:** The `Mass_State` borders do not appear to line up with the state borders in the streaming base maps or the `Mass_Counties` layers, especially on the coast and islands. Why do you think this might be?</span> 
+> **❓ Question 4:** The `Mass_State` borders do not appear to line up with the state borders in the streaming base maps or the `Mass_Counties` layers, especially on the coast and islands. Why do you think this might be?
 
 *(Close all attribute tables and save your work periodically).*
 
----
 
-## Part 3: ArcCatalog Pane
+
+### Part 3: ArcCatalog Pane
 
 Open the Arc Catalog Pane (**View** > **Catalog Pane**), and expand **Folders** and **Databases**. 
 
@@ -102,20 +102,20 @@ Open the Arc Catalog Pane (**View** > **Catalog Pane**), and expand **Folders** 
 
 In "Folders" or "Databases", expand `TownofAmherst_v01.gdb` and take a look.
 
-<span style="color:blue">**Question 5:** * Define “geodatabase”, “feature dataset”, “feature class”, and “(map) layer”, emphasizing their relationships and differences. 
-* What feature datasets are contained within `TownofAmherst_01.gdb`?
-* What feature classes are contained within the `USA` feature dataset, and which of those layers are currently on your map? 
-* What feature classes are contained within the `AmherstTown` feature dataset, and which of those layers are currently on your map?</span> 
+> **❓ Question 5:** > * Define “geodatabase”, “feature dataset”, “feature class”, and “(map) layer”, emphasizing their relationships and differences. 
+> * What feature datasets are contained within `TownofAmherst_01.gdb`?
+> * What feature classes are contained within the `USA` feature dataset, and which of those layers are currently on your map? 
+> * What feature classes are contained within the `AmherstTown` feature dataset, and which of those layers are currently on your map?
 
 Right-click on `TownofAmherst_01.gdb` and create a new feature dataset called `AmherstCollege`. 
 
 *(Save your work periodically).*
 
----
 
-## Part 4: Field Data and Basic Symbology
 
-<span style="color:blue">**Question 6:** Review the differences between vector and raster data. Write a working definition of each in your own words which includes a sketch.</span>
+### Part 4: Field Data and Basic Symbology
+
+> **❓ Question 6:** Review the differences between vector and raster data. Write a working definition of each in your own words which includes a sketch.
 
 **Working with Vector Data:**
 1. Open the `Mass` feature dataset and add the `Mass_Towns` feature class to the map by dragging them into the table of contents or right-clicking and selecting **Add to current map**. 
@@ -139,7 +139,7 @@ Open up the attribute table for your newly created `Amherst_TownBoundary` layer.
 5. Right-click on the top of the new field and choose **Calculate Geometry**. 
 6. Change the units to **Square Kilometers**, and change the coordinate system to **NAD 1983 StatePlane Massachusetts FIPS 2001 (Meters)** by clicking on the mini globe symbol. (We will talk more later about how coordinate systems can impact area calculations). 
 
-<span style="color:blue">**Question 7:** Based on your calculation in ArcGIS, what is the total area of the Town of Amherst in square kilometers rounded to 2 decimal places?</span>  
+> **❓ Question 7:** Based on your calculation in ArcGIS, what is the total area of the Town of Amherst in square kilometers rounded to 2 decimal places?
 
 **Applying to Parcels:**
 1. Open up the attribute table for `Amherst_Parcels`.
@@ -148,14 +148,14 @@ Open up the attribute table for your newly created `Amherst_TownBoundary` layer.
 4. Calculate the area of each parcel in square kilometers using the NAD 1983 StatePlane Massachusetts FIPS 2001 (Meters) Coordinate System.
 5. To get the total area, right-click at the top of your new area field and choose **Explore Statistics** to find the sum.
 
-<span style="color:blue">**Question 8:** (A) Based on your calculation in ArcGIS, how many square kilometers of land are owned by the Amherst College Trustees rounded to 2 decimal places? 
-(B) What percentage of the total land area in the Town of Amherst is owned by the Amherst College Trustees?</span> 
+> **❓ Question 8:** > (A) Based on your calculation in ArcGIS, how many square kilometers of land are owned by the Amherst College Trustees rounded to 2 decimal places? 
+> (B) What percentage of the total land area in the Town of Amherst is owned by the Amherst College Trustees?
 
 *(Save your work periodically).*
 
----
 
-## Part 5: Rasters and ArcToolbox
+
+### Part 5: Rasters and ArcToolbox
 
 Look back at the geodatabase we have been working out of in the Catalog Pane. Identify the one raster file and add it to the map. This is a common type of raster called a Digital Elevation Model (DEM), meaning each pixel contains elevation information (in this case, meters above sea level).
 
@@ -166,24 +166,24 @@ ArcToolbox is a set of predesigned codes that you can run geospatial data throug
 
 1. Open ArcToolbox (**Analysis** > **Tools**) and search for **Extract by Mask**. Click to open the tool. 
 
-<span style="color:blue">**Question 9:** Read the description of the Extract by Mask Tool and click on the question mark. What do you think this tool does?</span> 
+> **❓ Question 9:** Read the description of the Extract by Mask Tool and click on the question mark. What do you think this tool does?
 
 2. Fill out the form in the tool window and click run. Make sure to save output files in the working geodatabase and name the output file `Amherst_DEM_1ArcSec`. *(1 arc second is the raster resolution).*
 3. Turn off the original raster and reorder the layers so you can see the output. Did you guess correctly as to what the tool does? 
 4. Right-click on `Amherst_DEM_1ArcSec` in the Table of Contents and open up **Symbology**.
 5. Under color scheme check **Show all names** and then choose **Elevation #1**. 
 
-<span style="color:blue">**Question 10:** Based on the DEM legend in the table of contents, what is the range of elevation in the town of Amherst? Where are the highest elevation values?</span>
+> **❓ Question 10:** Based on the DEM legend in the table of contents, what is the range of elevation in the town of Amherst? Where are the highest elevation values?
 
 **Final Map Cleanup:**
 Rearrange the layers and change the symbology so that your final map shows the Amherst DEM overlain by the Amherst Streets symbolized by a 1-point black line, and the Amherst College Owned land parcels outlined in a 2-point purple line with no fill color. 
 
 Save your work and close this file for now; we will be using it again in future labs.
 
----
 
-## Reflection
 
-<span style="color:blue">**Question 11:** What concepts or skills which you practiced or reviewed in this lab would you now feel confident in independently applying to your own geospatial work?</span>
+### Reflection
 
-<span style="color:blue">**Question 12:** What questions or problems are you still having with the skills or concepts practiced in this lab?</span>
+> **❓ Question 11:** What concepts or skills which you practiced or reviewed in this lab would you now feel confident in independently applying to your own geospatial work?
+
+> **❓ Question 12:** What questions or problems are you still having with the skills or concepts practiced in this lab?
