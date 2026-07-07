@@ -57,11 +57,6 @@ Once your map is open, take some time familiarizing yourself with the display. C
 
 <span style="color:blue">**Question 1:** What do each of these tools in the ribbon menu at the top of the page do? Label them below and then play around with them so that you feel confident with how they work.</span> 
 
-**Answer:**
-> 
-> 
-> 
-
 > **Pro Tip:** A useful shortcut is that if you click `Shift` while having the explore tool selected, you can draw a box on the map to zoom to that extent. 
 
 **Exploring Map Properties:**
@@ -69,11 +64,6 @@ Once your map is open, take some time familiarizing yourself with the display. C
 2. Right-click on **Map** in the Contents window and look at the map document's properties. 
 
 <span style="color:blue">**Question 2:** What are the display units for the map? Find where these display on the map as you move your cursor around. What Coordinate System is the map currently in?</span>
-
-**Answer:**
-> 
-> 
-> 
 
 *(Do not change anything in map document properties and click cancel).*
 
@@ -83,11 +73,6 @@ Once your map is open, take some time familiarizing yourself with the display. C
 
 <span style="color:blue">**Question 3:** Fill in the rest of the full pathname for `USA_States`. It should be in a geodatabase within your folder for this class that begins as shown below. If it is not, please ask for help.</span>  
 `F:\MichelleFame\GEOL_ENST_253_F2025\StudentFolders\...`
-
-**Answer:**
-> 
-> 
-> 
 
 **Selecting and Exporting Features:**
 1. Right-click on **USA_States** and open up the attribute table. 
@@ -103,11 +88,6 @@ Repeat these steps again with `USA_Counties` and export a feature class with onl
 Turn off (uncheck) or remove (right-click > remove layer) all other state and counties layers. 
 
 <span style="color:blue">**Question 4:** The `Mass_State` borders do not appear to line up with the state borders in the streaming base maps or the `Mass_Counties` layers, especially on the coast and islands. Why do you think this might be?</span> 
-
-**Answer:**
-> 
-> 
-> 
 
 *(Close all attribute tables and save your work periodically).*
 
@@ -127,12 +107,6 @@ In "Folders" or "Databases", expand `TownofAmherst_v01.gdb` and take a look.
 * What feature classes are contained within the `USA` feature dataset, and which of those layers are currently on your map? 
 * What feature classes are contained within the `AmherstTown` feature dataset, and which of those layers are currently on your map?</span> 
 
-**Answer:**
-> 
-> 
-> 
-> 
-
 Right-click on `TownofAmherst_01.gdb` and create a new feature dataset called `AmherstCollege`. 
 
 *(Save your work periodically).*
@@ -142,11 +116,6 @@ Right-click on `TownofAmherst_01.gdb` and create a new feature dataset called `A
 ## Part 4: Field Data and Basic Symbology
 
 <span style="color:blue">**Question 6:** Review the differences between vector and raster data. Write a working definition of each in your own words which includes a sketch.</span>
-
-**Answer:**
-> 
-> 
-> *(Insert sketch here)*
 
 **Working with Vector Data:**
 1. Open the `Mass` feature dataset and add the `Mass_Towns` feature class to the map by dragging them into the table of contents or right-clicking and selecting **Add to current map**. 
@@ -172,11 +141,6 @@ Open up the attribute table for your newly created `Amherst_TownBoundary` layer.
 
 <span style="color:blue">**Question 7:** Based on your calculation in ArcGIS, what is the total area of the Town of Amherst in square kilometers rounded to 2 decimal places?</span>  
 
-**Answer:**
-> 
-> 
-> 
-
 **Applying to Parcels:**
 1. Open up the attribute table for `Amherst_Parcels`.
 2. Use **Select by Attributes** to select and then export a new feature class to the `AmherstCollege` dataset that only contains land parcels owned by "Amherst College Trustees" or "Trustees of Amherst College". Name it `AmherstCollege_Parcels`.
@@ -187,8 +151,7 @@ Open up the attribute table for your newly created `Amherst_TownBoundary` layer.
 <span style="color:blue">**Question 8:** (A) Based on your calculation in ArcGIS, how many square kilometers of land are owned by the Amherst College Trustees rounded to 2 decimal places? 
 (B) What percentage of the total land area in the Town of Amherst is owned by the Amherst College Trustees?</span> 
 
-**Answer:**
-> **(A)** > **(B)** *(Save your work periodically).*
+*(Save your work periodically).*
 
 ---
 
@@ -205,22 +168,12 @@ ArcToolbox is a set of predesigned codes that you can run geospatial data throug
 
 <span style="color:blue">**Question 9:** Read the description of the Extract by Mask Tool and click on the question mark. What do you think this tool does?</span> 
 
-**Answer:**
-> 
-> 
-> 
-
 2. Fill out the form in the tool window and click run. Make sure to save output files in the working geodatabase and name the output file `Amherst_DEM_1ArcSec`. *(1 arc second is the raster resolution).*
 3. Turn off the original raster and reorder the layers so you can see the output. Did you guess correctly as to what the tool does? 
 4. Right-click on `Amherst_DEM_1ArcSec` in the Table of Contents and open up **Symbology**.
 5. Under color scheme check **Show all names** and then choose **Elevation #1**. 
 
 <span style="color:blue">**Question 10:** Based on the DEM legend in the table of contents, what is the range of elevation in the town of Amherst? Where are the highest elevation values?</span>
-
-**Answer:**
-> 
-> 
-> 
 
 **Final Map Cleanup:**
 Rearrange the layers and change the symbology so that your final map shows the Amherst DEM overlain by the Amherst Streets symbolized by a 1-point black line, and the Amherst College Owned land parcels outlined in a 2-point purple line with no fill color. 
@@ -233,14 +186,4 @@ Save your work and close this file for now; we will be using it again in future 
 
 <span style="color:blue">**Question 11:** What concepts or skills which you practiced or reviewed in this lab would you now feel confident in independently applying to your own geospatial work?</span>
 
-**Answer:**
-> 
-> 
-> 
-
 <span style="color:blue">**Question 12:** What questions or problems are you still having with the skills or concepts practiced in this lab?</span>
-
-**Answer:**
-> 
-> 
->
