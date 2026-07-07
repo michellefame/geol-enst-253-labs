@@ -7,7 +7,7 @@ Welcome to the online lab and project manual for GEOL/ENST 253. Use the director
 
 # Laboratory Manuals
 
-- [Lab 1: Introduction to GIS & Geospatial Data](labs/lab-01-introduction-gis/)
+- [Lab 1: Introduction to GIS & Geospatial Data](labs/lab-01-introduction-gis/lab1_instructions)
 - [Lab 2: Projections](labs/lab-02-projections/)
 - [Lab 3: Scale & Symbology](labs/lab-03-scale-symbology/)
 - [Lab 4: Layout & Design](labs/lab-04-layout-design/)
