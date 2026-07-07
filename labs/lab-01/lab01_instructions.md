@@ -16,6 +16,27 @@ In this lab, we will begin to practice with some of the basic components of ArcG
 * Adding fields, using the field calculator, and symbolizing vector data
 * Introduction to working with rasters and ArcToolbox 
 
+
+
+![image1](images/image1.png)
+![image1](images/image2.png)
+![image1](images/image3.png)
+![image1](images/image4.png)
+![image1](images/image5.png)
+![image1](images/image6.png)
+![image1](images/image7.png)
+![image1](images/image8.png)
+![image1](images/image9.png)
+![image1](images/image10.png)
+![image1](images/image11.png)
+![image1](images/image12.png)
+![image1](images/image13.png)
+![image1](images/image14.png)
+![image1](images/image15.png)
+![image1](images/image16.png)
+![image1](images/image17.png)
+![image1](images/image18.png)
+
 ---
 
 ## Part 1: Set Up Azure
