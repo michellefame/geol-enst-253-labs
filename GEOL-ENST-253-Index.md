@@ -16,7 +16,7 @@ Welcome to the online lab and project manual for GEOL/ENST 253. Use the director
 - [Lab 7: Topo Rasters](labs/lab-07/lab07_instructions.md)
 - [Lab 8: Raster Analysis](labs/lab-08/lab08_instructions.md)
 - [Lab 9: Geospatial Problem Solving](labs/lab-09/lab09_instructions.md)
-- [Lab 10: Story Maps](labs/lab-10/lab10_instructions)
+- [Lab 10: Story Maps](labs/lab-10/lab10_instructions.md)
 
 ---
 
