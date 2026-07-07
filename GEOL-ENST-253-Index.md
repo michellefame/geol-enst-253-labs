@@ -23,5 +23,5 @@ Welcome to the online lab and project manual for GEOL/ENST 253. Use the director
 # Course Projects
 
 - [Project 1: Research Project 1](projects/project-01/project01_instructions.md)
-- [Project 2: Research Project 2](projects/project-02/project01_instructions.md)
+- [Project 2: Research Project 2](projects/project-02/project02_instructions.md)
 - [Project 3: Final Geospatial Project](projects/project-03/project03_instructions.md)
