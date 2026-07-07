@@ -25,12 +25,10 @@ File management is an essential part of using GIS and is essential to your succe
 Before any of us start on the assignment, let’s make sure everyone is successfully connected to the VCL, the F: drive, and can open ArcGIS Pro. Take notes on what we did to get connected; me, Andy, and your TA will come around and troubleshoot any issues you run into. If things go slowly today, make use of this time to catch up with classmates you already know and get to know folks you have not met before.
 
 **Installation & Connection:**
-1. Install the Windows App for [PC](https://learn.microsoft.com/en-us/windows-app/get-started-connect-devices-desktops-apps?tabs=windows-avd%2Cwindows-w365%2Cwindows-devbox%2Cmacos-rds%2Cwindows-pc&pivots=azure-virtual-desktop#connect-to-your-devices-and-apps) or [Mac] ([https://www.example.com](https://learn.microsoft.com/en-us/windows-app/get-started-connect-devices-desktops-apps?tabs=macos-avd%2Cwindows-w365%2Cwindows-devbox%2Cmacos-rds%2Cwindows-pc&pivots=azure-virtual-desktop#connect-to-your-devices-and-apps))on your computer to access Azure (the program which hosts our remote desktop system). 
+1. Download and install the **Windows App** from the App Store (Mac) or Microsoft Store (PC) onto your computer in order to access Azure (the program which hosts our remote desktop system). 
 2. Open the app, click **"+"**, and select **Add work or school account**.
 3. Use your full email address (`@amherst.edu`) and login as normal.
 4. Once the ArcGIS 3.5 Desktop is available, click on the **"..."** icon and select **Connect**.
-
-*(Note: Reference the Windows and Mac setup links provided in class if you need help with step 1).*
 
 **File Management Overview:**
 Open a folder and navigate to the class drive. Here is how the drive is structured:
@@ -43,7 +41,7 @@ Navigate to `StudentFolders` > `AStudent26` (find your own student ID, this is m
 
 ---
 
-# Part 2: ArcGIS Pro Map Interface
+## Part 2: ArcGIS Pro Map Interface
 
 Double-click on the folder `TownofAmherst_v01` and open up the ArcGIS Project File named `TownofAmherst_v01.aprx`.
 
@@ -92,7 +90,7 @@ Turn off (uncheck) or remove (right-click > remove layer) all other state and co
 
 ---
 
-# Part 3: ArcCatalog Pane
+## Part 3: ArcCatalog Pane
 
 Open the Arc Catalog Pane (**View** > **Catalog Pane**), and expand **Folders** and **Databases**. 
 
@@ -112,7 +110,7 @@ Right-click on `TownofAmherst_01.gdb` and create a new feature dataset called `A
 
 ---
 
-# Part 4: Field Data and Basic Symbology
+## Part 4: Field Data and Basic Symbology
 
 > **❓ Question 6:** Review the differences between vector and raster data. Write a working definition of each in your own words which includes a sketch.
 
@@ -154,7 +152,7 @@ Open up the attribute table for your newly created `Amherst_TownBoundary` layer.
 
 ---
 
-# Part 5: Rasters and ArcToolbox
+## Part 5: Rasters and ArcToolbox
 
 Look back at the geodatabase we have been working out of in the Catalog Pane. Identify the one raster file and add it to the map. This is a common type of raster called a Digital Elevation Model (DEM), meaning each pixel contains elevation information (in this case, meters above sea level).
 
