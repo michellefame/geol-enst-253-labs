@@ -16,27 +16,6 @@ In this lab, we will begin to practice with some of the basic components of ArcG
 * Adding fields, using the field calculator, and symbolizing vector data
 * Introduction to working with rasters and ArcToolbox 
 
-
-
-![image1](images/image1.png)
-![image1](images/image2.png)
-![image1](images/image3.png)
-![image1](images/image4.png)
-![image1](images/image5.png)
-![image1](images/image6.png)
-![image1](images/image7.png)
-![image1](images/image8.png)
-![image1](images/image9.png)
-![image1](images/image10.png)
-![image1](images/image11.png)
-![image1](images/image12.png)
-![image1](images/image13.png)
-![image1](images/image14.png)
-![image1](images/image15.png)
-![image1](images/image16.png)
-![image1](images/image17.png)
-![image1](images/image18.png)
-
 ---
 
 ## Part 1: Set Up Azure
@@ -60,6 +39,7 @@ Open a folder and navigate to the class drive. Here is how the drive is structur
 **Your Workspace For Today:**
 Navigate to `StudentFolders` > `AStudent26` (find your own student ID, this is my stand-in for your personal folder from here on out) > `Labs` > `Lab_1` > `TownofAmherst_v01`
 
+![image1](images/image1.png)
 ---
 
 ## Part 2: ArcGIS Pro Map Interface
@@ -72,6 +52,8 @@ Double-click on the folder `TownofAmherst_v01` and open up the ArcGIS Project Fi
 3. Login to Amherst College as normal (using Duo Mobile).
 
 Once your map is open, take some time familiarizing yourself with the display. Click through the tabs at the top to gain some familiarity with what each contains. When you are done playing, click back on the **Map** tab.
+
+![image1](images/maptab.png)
 
 > **❓ Question 1:** What do each of these tools in the ribbon menu at the top of the page do? Label them below and then play around with them so that you feel confident with how they work.
 
