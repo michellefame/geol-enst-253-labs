@@ -1,15 +1,14 @@
+# Lab #1 – Introduction to GIS & Geospatial Data
 ### GEOL/ENST 253: Geospatial Inquiry & GIS
-#### Prof. Michelle Fame
-#### Lab #1 – Introduction to GIS & Geospatial Data
+### Prof. Michelle Fame
+---
 
+## Introduction
 
-
-### Introduction
-
-#### Overview
+### Overview
 In this lab, we will begin to practice with some of the basic components of ArcGIS Pro. We will be working with a variety of geospatial data types to make a simple map of the Town of Amherst and do some very basic geospatial analyses. The data and maps you generate in this lab may be used again in future labs, so be sure to organize, name, and save everything properly. 
 
-#### Learning Goals
+### Learning Goals
 * Using the Virtual Computing Lab (VCL) to access ArcGIS Pro 
 * Using the F: Drive for file management
 * Getting familiar with the ArcGIS Pro interface and basic tools 
@@ -17,16 +16,16 @@ In this lab, we will begin to practice with some of the basic components of ArcG
 * Adding fields, using the field calculator, and symbolizing vector data
 * Introduction to working with rasters and ArcToolbox 
 
+---
 
-
-### Part 1: Set Up Azure
+## Part 1: Set Up Azure
 
 File management is an essential part of using GIS and is essential to your success in this class. Taking a little extra time to get your file system organized before you dive into a project will save you many headaches down the line. Today, I want to model that behavior. 
 
 Before any of us start on the assignment, let’s make sure everyone is successfully connected to the VCL, the F: drive, and can open ArcGIS Pro. Take notes on what we did to get connected; me, Andy, and your TA will come around and troubleshoot any issues you run into. If things go slowly today, make use of this time to catch up with classmates you already know and get to know folks you have not met before.
 
 **Installation & Connection:**
-1. Install the Windows App from the Microsoft Store on your computer to access Azure (the program which hosts our remote desktop system). 
+1. Install the Windows App for [PC](https://learn.microsoft.com/en-us/windows-app/get-started-connect-devices-desktops-apps?tabs=windows-avd%2Cwindows-w365%2Cwindows-devbox%2Cmacos-rds%2Cwindows-pc&pivots=azure-virtual-desktop#connect-to-your-devices-and-apps) or [Mac] ([https://www.example.com](https://learn.microsoft.com/en-us/windows-app/get-started-connect-devices-desktops-apps?tabs=macos-avd%2Cwindows-w365%2Cwindows-devbox%2Cmacos-rds%2Cwindows-pc&pivots=azure-virtual-desktop#connect-to-your-devices-and-apps))on your computer to access Azure (the program which hosts our remote desktop system). 
 2. Open the app, click **"+"**, and select **Add work or school account**.
 3. Use your full email address (`@amherst.edu`) and login as normal.
 4. Once the ArcGIS 3.5 Desktop is available, click on the **"..."** icon and select **Connect**.
@@ -42,9 +41,9 @@ Open a folder and navigate to the class drive. Here is how the drive is structur
 **Your Workspace For Today:**
 Navigate to `StudentFolders` > `AStudent26` (find your own student ID, this is my stand-in for your personal folder from here on out) > `Labs` > `Lab_1` > `TownofAmherst_v01`
 
+---
 
-
-### Part 2: ArcGIS Pro Map Interface
+# Part 2: ArcGIS Pro Map Interface
 
 Double-click on the folder `TownofAmherst_v01` and open up the ArcGIS Project File named `TownofAmherst_v01.aprx`.
 
@@ -91,9 +90,9 @@ Turn off (uncheck) or remove (right-click > remove layer) all other state and co
 
 *(Close all attribute tables and save your work periodically).*
 
+---
 
-
-### Part 3: ArcCatalog Pane
+# Part 3: ArcCatalog Pane
 
 Open the Arc Catalog Pane (**View** > **Catalog Pane**), and expand **Folders** and **Databases**. 
 
@@ -111,9 +110,9 @@ Right-click on `TownofAmherst_01.gdb` and create a new feature dataset called `A
 
 *(Save your work periodically).*
 
+---
 
-
-### Part 4: Field Data and Basic Symbology
+# Part 4: Field Data and Basic Symbology
 
 > **❓ Question 6:** Review the differences between vector and raster data. Write a working definition of each in your own words which includes a sketch.
 
@@ -153,9 +152,9 @@ Open up the attribute table for your newly created `Amherst_TownBoundary` layer.
 
 *(Save your work periodically).*
 
+---
 
-
-### Part 5: Rasters and ArcToolbox
+# Part 5: Rasters and ArcToolbox
 
 Look back at the geodatabase we have been working out of in the Catalog Pane. Identify the one raster file and add it to the map. This is a common type of raster called a Digital Elevation Model (DEM), meaning each pixel contains elevation information (in this case, meters above sea level).
 
@@ -180,9 +179,9 @@ Rearrange the layers and change the symbology so that your final map shows the A
 
 Save your work and close this file for now; we will be using it again in future labs.
 
+---
 
-
-### Reflection
+# Reflection
 
 > **❓ Question 11:** What concepts or skills which you practiced or reviewed in this lab would you now feel confident in independently applying to your own geospatial work?
 
