@@ -18,4 +18,3 @@ In this lab, we will begin to practice with some of the basic components of ArcG
 
 ---
 
-## Part 1: Set Up Azure
