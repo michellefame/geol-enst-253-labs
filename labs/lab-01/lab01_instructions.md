@@ -39,7 +39,7 @@ Open a folder and navigate to the class drive. Here is how the drive is structur
 **Your Workspace For Today:**
 Navigate to `StudentFolders` > `AStudent26` (find your own student ID, this is my stand-in for your personal folder from here on out) > `Labs` > `Lab_1` > `TownofAmherst_v01`
 
-![image1](images/image1.png)
+![explore](images/explore.png)
 ---
 
 ## Part 2: ArcGIS Pro Map Interface
@@ -61,7 +61,9 @@ Once your map is open, take some time familiarizing yourself with the display. C
 
 **Exploring Map Properties:**
 1. Check and uncheck layers in the **Contents** window and move layers around into different drawing orders. 
-2. Right-click on **Map** in the Contents window and look at the map document's properties. 
+2. Right-click on **Map** in the Contents window and look at the map document's properties.
+
+![image1](images/maporder.png)
 
 > **❓ Question 2:** What are the display units for the map? Find where these display on the map as you move your cursor around. What Coordinate System is the map currently in?
 
