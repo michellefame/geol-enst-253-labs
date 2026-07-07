@@ -7,16 +7,16 @@ Welcome to the online lab and project manual for GEOL/ENST 253. Use the director
 
 # Laboratory Manuals
 
-- [Lab 1: Introduction to GIS & Geospatial Data](labs/lab-01-introduction-gis/lab1_instructions.md)
-- [Lab 2: Projections](labs/lab-02-projections/lab2_instructions.md)
-- [Lab 3: Scale & Symbology](labs/lab-03-scale-symbology/lab3_instructions.md)
-- [Lab 4: Layout & Design](labs/lab-04-layout-design/lab4_instructions.md)
-- [Lab 5: Vector Analysis](labs/lab-05-vector-analysis/lab5_instructions.md)
-- [Lab 6: Georef + Edit](labs/lab-06-georef-edit/lab6_instructions.md)
-- [Lab 7: Topo Rasters](labs/lab-07-topo-rasters/lab7_instructions.md)
-- [Lab 8: Raster Analysis](labs/lab-08-raster-analysis/lab8_instructions.md)
-- [Lab 9: Geospatial Problem Solving](labs/lab-09-geospatial-problem-solving/lab9_instructions.md)
-- [Lab 10: Story Maps](labs/lab-10-story-maps/)
+- [Lab 1: Introduction to GIS & Geospatial Data](labs/lab-01/lab1_instructions.md)
+- [Lab 2: Projections](labs/lab-02/lab2_instructions.md)
+- [Lab 3: Scale & Symbology](labs/lab-03/lab3_instructions.md)
+- [Lab 4: Layout & Design](labs/lab-04-/lab4_instructions.md)
+- [Lab 5: Vector Analysis](labs/lab-05/lab5_instructions.md)
+- [Lab 6: Georef + Edit](labs/lab-06/lab6_instructions.md)
+- [Lab 7: Topo Rasters](labs/lab-07/lab7_instructions.md)
+- [Lab 8: Raster Analysis](labs/lab-08/lab8_instructions.md)
+- [Lab 9: Geospatial Problem Solving](labs/lab-09/lab9_instructions.md)
+- [Lab 10: Story Maps](labs/lab-10/lab10_instructions)
 
 ---
 
