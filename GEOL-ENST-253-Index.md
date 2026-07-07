@@ -10,7 +10,7 @@ Welcome to the online lab and project manual for GEOL/ENST 253. Use the director
 - [Lab 1: Introduction to GIS & Geospatial Data](labs/lab-01/lab01_instructions.md)
 - [Lab 2: Projections](labs/lab-02/lab02_instructions.md)
 - [Lab 3: Scale & Symbology](labs/lab-03/lab03_instructions.md)
-- [Lab 4: Layout & Design](labs/lab-04-/lab04_instructions.md)
+- [Lab 4: Layout & Design](labs/lab-04/lab04_instructions.md)
 - [Lab 5: Vector Analysis](labs/lab-05/lab05_instructions.md)
 - [Lab 6: Georef + Edit](labs/lab-06/lab06_instructions.md)
 - [Lab 7: Topo Rasters](labs/lab-07/lab07_instructions.md)
